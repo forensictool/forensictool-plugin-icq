@@ -34,7 +34,8 @@ QString TaskICQ::name()
 QStringList TaskICQ::authors()
 {
 	QStringList listAuthors;
-	listAuthors << "Marina Meyta";
+	listAuthors << "Marina Meyta <somekindofcookiemonster@gmail.com>";
+	listAuthors << "Yuriy Tereshchenko";
 	return listAuthors;
 }
 

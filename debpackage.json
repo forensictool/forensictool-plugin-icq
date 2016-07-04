@@ -1,0 +1,24 @@
+{
+	"repository": "https://github.com/forensictool/forensictool-plugin-icq.git",
+	"maintainer": {
+		"name": "Marina Meyta",
+		"email": "somekindofcookiemonster@gmail.com"
+	},
+	"developers": [
+		"Marina Meyta <somekindofcookiemonster@gmail.com>"
+	],
+	"build" : [
+		{
+			"type": "lib",
+			"name": "libforensictool-plugin-icq",
+			"project": "lib.pro",
+			"description": "Collect a list of contacts, users correspondence, information about and chats"
+		},
+		{
+			"type": "app",
+			"name": "forensictool-icq",
+			"project": "app.pro",
+			"description": "The Console Application. Collect a list of contacts, users correspondence, information about calls and chats"
+		}
+	]
+}
