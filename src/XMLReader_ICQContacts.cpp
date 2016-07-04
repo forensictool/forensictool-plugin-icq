@@ -12,7 +12,6 @@ bool XMLReader_ICQContacts::read(QString inputFile, QString outPath)
     }
     writerMessagesICQ icqContacts(outPath + "//icq/contacts.xml");
 
-	
     if(file.open(QIODevice::ReadOnly)) {
         QXmlStreamReader xml(&file);
 
@@ -20,6 +19,7 @@ bool XMLReader_ICQContacts::read(QString inputFile, QString outPath)
             xml.readNext();
 			if (xml.qualifiedName() == "c")
 			{
+				// qDebug() << "123";
                 QString mail, nick;
 				if(xml.attributes().value("email") != "")
                     mail = xml.attributes().value("email").toString();

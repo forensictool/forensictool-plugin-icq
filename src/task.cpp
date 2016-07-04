@@ -97,7 +97,8 @@ bool TaskICQ::execute()
         QFileInfo fInfo(str);
         if(fInfo.suffix() == "xml")
         {
-//            qDebug() << QString("fInfo.absoluteFilePath() = ").arg(fInfo.absoluteFilePath());
+			
+            // qDebug() << QString("fInfo.absoluteFilePath() = ").arg(fInfo.absoluteFilePath());
             // парсинг XML-файла с контактами
             XMLReader_ICQContacts reader; // создаем экземпляр класса
             reader.read(fInfo.absoluteFilePath(), outDirStr);

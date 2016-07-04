@@ -13,13 +13,13 @@
 			"type": "lib",
 			"name": "libforensictool-plugin-icq",
 			"project": "lib.pro",
-			"description": "Collect a list of contacts, users correspondence, information about and chats"
+			"description": "Collect a list of contacts"
 		},
 		{
 			"type": "app",
 			"name": "forensictool-icq",
 			"project": "app.pro",
-			"description": "The Console Application. Collect a list of contacts, users correspondence, information about calls and chats"
+			"description": "The Console Application. Collect a list of contacts"
 		}
 	]
 }
