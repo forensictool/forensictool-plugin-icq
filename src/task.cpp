@@ -48,6 +48,20 @@ QString TaskICQ::description()
 
 //----------------------------------------------------------------------
 
+QString TaskICQ::license()
+{
+	return "MIT License";
+}
+
+//----------------------------------------------------------------------
+
+QString TaskICQ::licenseFull()
+{
+	return "http://forensictool.su/#LICENSE";
+}
+
+//----------------------------------------------------------------------
+
 bool TaskICQ::isSupportOS(const forensictool::ITypeOperationSystem *os)
 {
     return (os->platform() == "Windows");

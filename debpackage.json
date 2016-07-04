@@ -5,7 +5,8 @@
 		"email": "somekindofcookiemonster@gmail.com"
 	},
 	"developers": [
-		"Marina Meyta <somekindofcookiemonster@gmail.com>"
+		"Marina Meyta <somekindofcookiemonster@gmail.com>",
+		"Yuriy Tereshchenko"
 	],
 	"build" : [
 		{

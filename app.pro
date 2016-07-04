@@ -22,7 +22,7 @@ SOURCES += \
 HEADERS += \
 	src/task.h \
 	src/writerMessages.h \
-	src/XMLReader_ICQContacts.h 
+	src/XMLReader_ICQContacts.h \
 	src/forensictool-core/v0.3.1/helpers/config.h \
 	src/forensictool-core/v0.3.1/helpers/typeos.h \
 	
